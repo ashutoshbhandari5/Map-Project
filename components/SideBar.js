@@ -2,7 +2,7 @@ import Item from "./Item";
 
 const SideBar = ({ news, loadData }) => {
   const sortBy = "author";
-  const sortedNews = news.sort((a, b) => a.author.localeCompare(b.author));
+  const sortedNews = news.sort((a, b) => a[sortBy].localeCompare(b[sortBy]));
   console.log(sortedNews);
   return (
     <div className="h-sreen">
