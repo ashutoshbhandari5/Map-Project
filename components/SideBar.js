@@ -4,7 +4,7 @@ import List from "./List";
 const SideBar = ({ news }) => {
   console.log(news);
   return (
-    <div>
+    <div className="">
       <ul className="p-5 flex w-full justify-between">
         <li>News live</li>
         <li>Language</li>
@@ -12,7 +12,7 @@ const SideBar = ({ news }) => {
         <li>Key</li>
         <li>Login</li>
       </ul>
-      <div className="p-5 bg-slate-100 h-full overflow-y-scroll">
+      <div className="p-5 bg-slate-100 overflow-y-scroll h-screen fixed">
         <h1>News Live</h1>
         <div>
           {news.map((el, i) => {
