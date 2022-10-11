@@ -3,7 +3,6 @@ import SideBar from "../components/SideBar";
 import Map from "./Map";
 
 const MapContainer = ({ news, loadData }) => {
-  console.log(news);
   return (
     <div className="flex w-full justify-between h-full">
       <div className="grow text-center">
