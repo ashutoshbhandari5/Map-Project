@@ -1,14 +1,18 @@
-import react, { useState } from "react";
+import react, { useEffect, useState } from "react";
 import MapContainer from "../components/MapContainer";
 import newsJson from "../utils/news.json";
 
 export default function Home() {
-  const [news, setNews] = useState(newsJson.slice(0, 5));
+  const [currentPage, setCurrentPage] = useState(1);
+  const [news, setNews] = useState([]);
 
   const loadData = () => {
-    const currentDataLength = news.length;
-    setNews(newsJson.slice(0, currentDataLength + 5));
+    setCurrentPage(currentPage + 1);
   };
+
+  useEffect(() => {
+    setNews(newsJson.slice(0, currentPage * 5));
+  });
 
   return (
     <div>
