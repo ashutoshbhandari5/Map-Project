@@ -1,7 +1,9 @@
 import Item from "./Item";
 
 const SideBar = ({ news, loadData }) => {
-  console.log(news);
+  const sortBy = "author";
+  const sortedNews = news.sort((a, b) => a.author.localeCompare(b.author));
+  console.log(sortedNews);
   return (
     <div className="h-sreen">
       <ul className="p-5 flex w-full justify-between">
@@ -14,8 +16,8 @@ const SideBar = ({ news, loadData }) => {
       <div className="p-5 bg-slate-100 relative h-screen">
         <h1>News Live</h1>
         <div className="h-full w-full overflow-y-auto">
-          {news?.map((el, i) => {
-            return <Item key={i} country={el.country} title={el.title} />;
+          {sortedNews?.map((el, i) => {
+            return <Item key={i} author={el.author} title={el.title} />;
           })}
           <button
             onClick={() => loadData()}

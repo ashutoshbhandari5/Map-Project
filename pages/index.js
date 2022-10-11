@@ -1,4 +1,4 @@
-import react, { useEffect, useState } from "react";
+import react, { useState } from "react";
 import MapContainer from "../components/MapContainer";
 import newsJson from "../utils/news.json";
 
