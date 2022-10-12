@@ -16,13 +16,9 @@ const Map = ({ selectedNews }) => {
         <p className="px-2">Select region</p>
       </div>
       <div>
-        {
-          <>
-            <h3 className="my-10">Currently selected news</h3>
-            <h1>{selectedNews.author}</h1>
-            <p>{selectedNews.title}</p>
-          </>
-        }
+        <h3 className="my-10">Currently selected news</h3>
+        <h1>{selectedNews.author}</h1>
+        <p>{selectedNews.title}</p>
       </div>
     </div>
   );
