@@ -21,7 +21,7 @@ export default function Home() {
 
   useEffect(() => {
     setSelectedNews(null);
-  }, [filter, news]);
+  }, [news]);
 
   const loadData = () => {
     setCurrentPage(currentPage + 1);
