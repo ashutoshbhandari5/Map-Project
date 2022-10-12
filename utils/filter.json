@@ -1,0 +1,36 @@
+{
+  "fields": [
+    {
+      "id": "orderBy",
+      "filterType": "order",
+      "options": [
+        {
+          "type": "Order By",
+          "disabled": true
+        },
+        {
+          "type": "asc"
+        },
+        {
+          "type": "desc"
+        }
+      ]
+    },
+    {
+      "id": "sortBy",
+      "filterType": "sortBy",
+      "options": [
+        {
+          "type": "Sort By",
+          "disabled": true
+        },
+        {
+          "type": "author"
+        },
+        {
+          "type": "title"
+        }
+      ]
+    }
+  ]
+}

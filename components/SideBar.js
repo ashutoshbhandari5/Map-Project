@@ -1,6 +1,7 @@
 import Item from "./Item";
+import filter from "../utils/filter.json";
 
-const SideBar = ({ news, loadData }) => {
+const SideBar = ({ news, loadData, handleSortFilter }) => {
   return (
     <div className="h-sreen">
       <ul className="p-5 flex w-full justify-between">
@@ -11,7 +12,24 @@ const SideBar = ({ news, loadData }) => {
         <li>Login</li>
       </ul>
       <div className="p-5 bg-slate-100 relative h-screen">
-        <h1>News Live</h1>
+        <div className="flex">
+          <h1>News Live</h1>
+          {filter.fields.map((el, i) => (
+            <select
+              key={i}
+              onChange={(e) =>
+                handleSortFilter({ [el.filterType]: e.target.value })
+              }
+              className="ml-3"
+            >
+              {el.options.map((option, i) => (
+                <option disabled={option.disabled} value={option.type} key={i}>
+                  {option.type}
+                </option>
+              ))}
+            </select>
+          ))}
+        </div>
         <div className="h-full w-full overflow-y-auto">
           {news?.map((el, i) => {
             return <Item key={i} author={el.author} title={el.title} />;
