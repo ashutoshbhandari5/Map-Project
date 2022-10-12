@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import react, { useEffect, useState } from "react";
 import MapContainer from "../components/MapContainer";
 import newsJson from "../utils/news.json";
 import filterJson from "../utils/filter.json";
@@ -6,7 +6,7 @@ import filterJson from "../utils/filter.json";
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
   const [filter, setFilter] = useState({ sortBy: "author", order: "asc" });
-  const [selectedNews, setSelectedNews] = useState({});
+  const [selectedNews, setSelectedNews] = useState(null);
   const news = newsJson
     .sort((a, b) => {
       return filter.order === "asc"
@@ -14,6 +14,10 @@ export default function Home() {
         : b[filter.sortBy].localeCompare(a[filter.sortBy]);
     })
     .slice(0, currentPage * 5);
+
+  useEffect(() => {
+    setSelectedNews(null);
+  }, [filter, news.length]);
 
   const loadData = () => {
     setCurrentPage(currentPage + 1);
