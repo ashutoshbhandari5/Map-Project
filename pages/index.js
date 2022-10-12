@@ -28,7 +28,9 @@ export default function Home() {
   };
 
   const handleSortFilter = (obj) => {
-    setFilter({ ...filter, ...obj });
+    setFilter((previousState) => {
+      return { ...previousState, ...obj };
+    });
   };
 
   return (
