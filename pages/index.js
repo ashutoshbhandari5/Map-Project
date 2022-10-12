@@ -6,6 +6,7 @@ import filterJson from "../utils/filter.json";
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
   const [filter, setFilter] = useState({ sortBy: "author", order: "asc" });
+  const [selectedNews, setSelectedNews] = useState({});
   const news = newsJson
     .sort((a, b) => {
       return filter.order === "asc"
@@ -29,6 +30,8 @@ export default function Home() {
         news={news}
         handleSortFilter={handleSortFilter}
         loadData={loadData}
+        setSelectedNews={setSelectedNews}
+        selectedNews={selectedNews}
       />
     </div>
   );

@@ -1,10 +1,13 @@
 import React from "react";
 
-const Item = ({ author, title }) => {
+const Item = ({ newsItem, setSelectedNews }) => {
   return (
-    <div className="p-2 ">
-      <h1 className="p-2 text-center">{author}</h1>
-      <p>{title}</p>
+    <div
+      onClick={() => setSelectedNews(newsItem)}
+      className="p-2 cursor-pointer hover:bg-white"
+    >
+      <h1 className="p-2 text-center">{newsItem.author}</h1>
+      <p>{newsItem.title}</p>
     </div>
   );
 };

@@ -1,6 +1,12 @@
 import Item from "./Item";
 
-const SideBar = ({ news, loadData, handleSortFilter, filterJson }) => {
+const SideBar = ({
+  news,
+  loadData,
+  handleSortFilter,
+  filterJson,
+  setSelectedNews,
+}) => {
   return (
     <div className="h-sreen">
       <ul className="p-5 flex w-full justify-between">
@@ -31,7 +37,9 @@ const SideBar = ({ news, loadData, handleSortFilter, filterJson }) => {
         </div>
         <div className="h-full w-full overflow-y-auto">
           {news?.map((el, i) => {
-            return <Item key={i} author={el.author} title={el.title} />;
+            return (
+              <Item setSelectedNews={setSelectedNews} key={i} newsItem={el} />
+            );
           })}
           <button
             onClick={() => loadData()}

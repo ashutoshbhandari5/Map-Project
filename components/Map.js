@@ -1,6 +1,7 @@
 import React from "react";
 
-const Map = () => {
+const Map = ({ selectedNews }) => {
+  console.log(Object.keys(selectedNews) === 0);
   return (
     <div className="flex flex-col p-4">
       <div className="flex ">
@@ -14,7 +15,15 @@ const Map = () => {
         </ul>
         <p className="px-2">Select region</p>
       </div>
-      <div>Map here</div>
+      <div>
+        {
+          <>
+            <h3 className="my-10">Currently selected news</h3>
+            <h1>{selectedNews.author}</h1>
+            <p>{selectedNews.title}</p>
+          </>
+        }
+      </div>
     </div>
   );
 };
