@@ -9,6 +9,7 @@ const MapContainer = ({
   filterJson,
   setSelectedNews,
   selectedNews,
+  renderNewsItem,
 }) => {
   return (
     <div className="flex w-full justify-between h-full">
@@ -17,6 +18,7 @@ const MapContainer = ({
       </div>
       <div className="basis-1/4 h-full">
         <SideBar
+          renderNewsItem={renderNewsItem}
           handleSortFilter={handleSortFilter}
           loadData={loadData}
           news={news}

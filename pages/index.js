@@ -33,14 +33,26 @@ export default function Home() {
     });
   };
 
+  const renderNewsItem = (newsItem) => {
+    return (
+      <div
+        onClick={() => setSelectedNews(newsItem)}
+        className="p-2 cursor-pointer hover:bg-white"
+      >
+        <h1 className="p-2 text-center">{newsItem.author}</h1>
+        <p>{newsItem.title}</p>
+      </div>
+    );
+  };
+
   return (
     <div>
       <MapContainer
         filterJson={filterJson}
         news={news}
         handleSortFilter={handleSortFilter}
+        renderNewsItem={renderNewsItem}
         loadData={loadData}
-        setSelectedNews={setSelectedNews}
         selectedNews={selectedNews}
       />
     </div>

@@ -6,6 +6,7 @@ const SideBar = ({
   handleSortFilter,
   filterJson,
   setSelectedNews,
+  renderNewsItem,
 }) => {
   return (
     <div className="h-sreen">
@@ -37,9 +38,7 @@ const SideBar = ({
         </div>
         <div className="h-full w-full overflow-y-auto">
           {news?.map((el, i) => {
-            return (
-              <Item setSelectedNews={setSelectedNews} key={i} newsItem={el} />
-            );
+            return renderNewsItem(el);
           })}
           <button
             onClick={() => loadData()}
