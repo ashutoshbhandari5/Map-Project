@@ -2,7 +2,7 @@ import React from "react";
 import SideBar from "../components/SideBar";
 import Map from "./Map";
 
-const MapContainer = ({ news, loadData, handleSortFilter }) => {
+const MapContainer = ({ news, loadData, handleSortFilter, filterJson }) => {
   return (
     <div className="flex w-full justify-between h-full">
       <div className="grow text-center">
@@ -13,6 +13,7 @@ const MapContainer = ({ news, loadData, handleSortFilter }) => {
           handleSortFilter={handleSortFilter}
           loadData={loadData}
           news={news}
+          filterJson={filterJson}
         />
       </div>
     </div>

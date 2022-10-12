@@ -1,6 +1,7 @@
 import react, { useState } from "react";
 import MapContainer from "../components/MapContainer";
 import newsJson from "../utils/news.json";
+import filterJson from "../utils/filter.json";
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <div>
       <MapContainer
+        filterJson={filterJson}
         news={news}
         handleSortFilter={handleSortFilter}
         loadData={loadData}
