@@ -1,37 +1,47 @@
-[
-  {
-    "name": "Norvic",
-    "bedCount": "155",
-    "speciality": "Heart"
-  },
-  {
-    "name": "Bir",
-    "bedCount": "255",
-    "speciality": "Cancer"
-  },
-  {
-    "name": "Kanti",
-    "bedCount": "55",
-    "speciality": "eye"
-  },
-  {
-    "name": "Venus",
-    "bedCount": "125",
-    "speciality": "Bone"
-  },
-  {
-    "name": "Civil",
-    "bedCount": "120",
-    "speciality": "Whole Body"
-  },
-  {
-    "name": "Everest",
-    "bedCount": "137",
-    "speciality": "Skin"
-  },
-  {
-    "name": "MidCity",
-    "bedCount": "45",
-    "speciality": "Hair"
-  }
-]
+{
+  "center": { "lat": 27.708317, "lng": 85.3205817 },
+  "data": [
+    {
+      "name": "Norvic",
+      "bedCount": "155",
+      "speciality": "Heart",
+      "marker": { "lat": 27.68993785, "lng": 85.31918411154355 }
+    },
+    {
+      "name": "Bir",
+      "bedCount": "255",
+      "speciality": "Cancer",
+      "marker": { "lat": 27.7051958, "lng": 85.31378740240088 }
+    },
+    {
+      "name": "Kanti",
+      "bedCount": "55",
+      "speciality": "children",
+      "marker": { "lat": 27.7347136, "lng": 85.32794928572352 }
+    },
+    {
+      "name": "City",
+      "bedCount": "125",
+      "speciality": "Bone",
+      "marker": { "lat": 27.6909765, "lng": 85.3246923 }
+    },
+    {
+      "name": "Civil",
+      "bedCount": "120",
+      "speciality": "Whole Body",
+      "marker": { "lat": 27.68652065, "lng": 85.33890613080408 }
+    },
+    {
+      "name": "Everest",
+      "bedCount": "137",
+      "speciality": "Skin",
+      "marker": { "lat": 27.6884956, "lng": 85.33291614856805 }
+    },
+    {
+      "name": "MidCity",
+      "bedCount": "45",
+      "speciality": "Therapy",
+      "marker": { "lat": 27.711016, "lng": 85.3147438 }
+    }
+  ]
+}

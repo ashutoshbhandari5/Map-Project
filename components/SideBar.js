@@ -17,7 +17,7 @@ const SideBar = ({
       <div className="p-5 bg-slate-100 relative h-screen">
         <div className="flex">
           <h1>News Live</h1>
-          {filterJson?.fields.map((el, i) => (
+          {filterJson?.map((el, i) => (
             <select
               key={i}
               onChange={(e) =>
@@ -34,8 +34,8 @@ const SideBar = ({
           ))}
         </div>
         <div className="h-full w-full overflow-y-auto">
-          {data?.map((el) => {
-            return renderListItem(el);
+          {data?.map((el, i) => {
+            return <div key={i}>{renderListItem(el)} </div>;
           })}
           <button
             onClick={() => loadData()}

@@ -8,12 +8,14 @@ const MapContainer = ({
   handleSortFilter,
   filterJson,
   selectedDataItem,
+  center,
   renderListItem,
 }) => {
+  const markers = data.map((el) => el.marker);
   return (
     <div className="flex w-full justify-between h-full">
       <div className="grow text-center">
-        <Map selectedDataItem={selectedDataItem} />
+        <Map center={center} markers={markers} />
       </div>
       <div className="basis-1/4 h-full">
         <SideBar

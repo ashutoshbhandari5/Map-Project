@@ -5,7 +5,13 @@ import useDataFilter from "../hooks/useDataFilter";
 
 export default function Home() {
   const [data, handleSortFilter, loadData, selectedData, setSelectedData] =
-    useDataFilter(newsJson, "author");
+    useDataFilter(newsJson.data, "author");
+
+  const newsFilterJson = filterJson.fields.filter(
+    (el) => el.for === "all" || el.for === "news"
+  );
+
+  console.log(newsFilterJson);
 
   const renderListItem = (newsItem) => {
     return (
@@ -22,8 +28,9 @@ export default function Home() {
   return (
     <div>
       <MapContainer
-        filterJson={filterJson}
+        filterJson={newsFilterJson}
         data={data}
+        center={newsJson.center}
         handleSortFilter={handleSortFilter}
         renderListItem={renderListItem}
         loadData={loadData}

@@ -2,6 +2,7 @@
   "fields": [
     {
       "id": "orderBy",
+      "for": "all",
       "filterType": "order",
       "options": [
         {
@@ -18,6 +19,7 @@
     },
     {
       "id": "sortBy",
+      "for": "news",
       "filterType": "sortBy",
       "options": [
         {
@@ -29,6 +31,23 @@
         },
         {
           "type": "title"
+        }
+      ]
+    },
+    {
+      "id": "sortBy",
+      "for": "hospital",
+      "filterType": "sortBy",
+      "options": [
+        {
+          "type": "Sort By",
+          "disabled": true
+        },
+        {
+          "type": "name"
+        },
+        {
+          "type": "speciality"
         }
       ]
     }

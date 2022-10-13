@@ -1,572 +1,90 @@
-[
-  {
-    "source": {
-      "id": null,
-      "name": "GlobeNewswire"
+{
+  "center": { "lat": 28.1083929, "lng": 84.0917139 },
+  "data": [
+    {
+      "author": "Voltera",
+      "title": "Voltera Adds EV Charging Veterans to Leadership Team",
+      "marker": { "lat": 28.209538, "lng": 83.991402 }
     },
-    "author": "Voltera",
-    "title": "Voltera Adds EV Charging Veterans to Leadership Team",
-    "description": "New team members solidify Voltera’s ability to deploy electric vehicle infrastructure for fleets New team members solidify Voltera’s ability to deploy electric vehicle infrastructure for fleets",
-    "url": "https://www.globenewswire.com/news-release/2022/10/11/2531998/0/en/Voltera-Adds-EV-Charging-Veterans-to-Leadership-Team.html",
-    "urlToImage": "https://ml.globenewswire.com/Resource/Download/c9f7aa42-b2bc-4991-b755-4f3cb07a9d93?size=2",
-    "publishedAt": "2022-10-11T13:15:00Z",
-    "content": "Herndon, VA, Oct. 11, 2022 (GLOBE NEWSWIRE) -- Voltera, a company that develops and operates electric vehicle (EV) charging facilities as a turnkey service for clients, today announced the addition o… [+5250 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Forbes"
+    {
+      "author": "James Currier",
+      "title": "Network Effects: The Hidden Force Behind 70% Of Value In Tech",
+      "marker": { "lat": 27.9788799, "lng": 82.46841762266229 }
     },
-    "author": "James Currier",
-    "title": "Network Effects: The Hidden Force Behind 70% Of Value In Tech",
-    "description": "Having network effects is one of the best strategies for building a high-value technology company.",
-    "url": "https://www.forbes.com/sites/forbesbusinesscouncil/2022/10/11/network-effects-the-hidden-force-behind-70-of-value-in-tech/",
-    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/601c20336927340c1d155f1f/0x0.jpg?format=jpg&width=1200",
-    "publishedAt": "2022-10-11T13:15:00Z",
-    "content": "5-time Founder, General Partner at NFX &amp; Host of The Network Effects Masterclass.\r\ngetty\r\nLook at the biggest businesses in tech: Apple, Microsoft, Google, Meta, Tesla. How did they get there? Wh… [+5025 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Phonandroid"
+    {
+      "author": "Andry Nirina",
+      "title": "Tesla baisse les prix aux Superchargeurs et annonce des heures creuses",
+      "marker": { "lat": 27.7003986, "lng": 83.4657667 }
     },
-    "author": "Andry Nirina",
-    "title": "Tesla baisse les prix aux Superchargeurs et annonce des heures creuses",
-    "description": "Après une année 2022 où Tesla n'a cessé d'augmenter les prix de la recharge aux Superchargeurs, la compagnie a enfin annoncé une accalmie sur ses prix. Les prix dans les stations sont à la baisse de 10 % en journée...",
-    "url": "https://www.phonandroid.com/tesla-baisse-les-prix-aux-superchargeurs-et-annonce-des-heures-creuses.html",
-    "urlToImage": "https://img.phonandroid.com/2022/10/tesla_supercharger.jpg",
-    "publishedAt": "2022-10-11T13:14:11Z",
-    "content": "Après une année 2022 où Tesla n'a cessé d'augmenter les prix de la recharge aux Superchargeurs, la compagnie a enfin annoncé une accalmie sur ses prix. Les prix dans les stations sont à la baisse de … [+2175 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Business Wire"
+    {
+      "author": "Harry",
+      "title": "Solo Advanced Vehicle Technologies Successfully Completes First Battery-Electric Drivetrain Tests",
+      "marker": { "lat": 27.618556599999998, "lng": 84.45385600798173 }
     },
-    "author": "Harry",
-    "title": "Solo Advanced Vehicle Technologies Successfully Completes First Battery-Electric Drivetrain Tests",
-    "description": "FREMONT, Calif.--(BUSINESS WIRE)-- #AV--Solo Advanced Vehicle Technologies (Solo AVT), the electric vehicle hardware company revolutionizing the freight transportation industry, today announced the successful initial testing of the company’s battery-electric …",
-    "url": "https://www.businesswire.com/news/home/20221011005601/en/Solo-Advanced-Vehicle-Technologies-Successfully-Completes-First-Battery-Electric-Drivetrain-Tests",
-    "urlToImage": "https://mms.businesswire.com/media/20221011005601/en/1597867/23/SoloAVTHorizontal.jpg",
-    "publishedAt": "2022-10-11T13:10:56Z",
-    "content": "FREMONT, Calif.--(BUSINESS WIRE)--Solo Advanced Vehicle Technologies (Solo AVT), the electric vehicle hardware company revolutionizing the freight transportation industry, today announced the success… [+3443 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Forbes"
+    {
+      "author": "Derek Saul",
+      "title": "JPMorgan’s Dimon Backs Musk’s Twitter Bid—And Calls For Removal Of Bots",
+      "marker": { "lat": 28.0653558, "lng": 81.64970639954868 }
     },
-    "author": "Derek Saul",
-    "title": "JPMorgan’s Dimon Backs Musk’s Twitter Bid—And Calls For Removal Of Bots",
-    "description": "JPMorgan Chase CEO Jamie Dimon surprisingly threw a bone to his billionaire foe Elon Musk, saying he hopes Musk “cleans up” Twitter.",
-    "url": "https://www.forbes.com/sites/dereksaul/2022/10/11/jpmorgans-dimon-backs-musks-twitter-bid-and-calls-for-removal-of-bots/",
-    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/63456ac38f4c7391e9de06a9/0x0.jpg?format=jpg&crop=3998,2248,x0,y46,safe&width=1200",
-    "publishedAt": "2022-10-11T13:09:51Z",
-    "content": "JPMorgan Chase CEO Jamie Dimon offered his support for the worlds wealthiest man Elon Musks Twitter takeover in an interview published Tuesday, a surprise vote of confidence given the history of anim… [+1996 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "MSPoweruser"
+    {
+      "author": "Joe Rogun",
+      "title": "Twitter could do away with clickable links in #hashtags",
+      "marker": { "lat": 27.618556599999998, "lng": 84.45385600798173 }
     },
-    "author": "Joe Rogun",
-    "title": "Twitter could do away with clickable links in #hashtags",
-    "description": "After introducing the Edit Tweet feature, Twitter could plan another significant change for its microblogging platform. According to reverse engineer Jane Manchun Wong, the next big change coming to Twitter could be hashtags without clickable links, which cou…",
-    "url": "https://mspoweruser.com/twitter-could-do-away-with-clickable-links-in-hashtags/",
-    "urlToImage": "https://mspoweruser.com/wp-content/uploads/2022/05/Twitter-Logo-040522.jpg",
-    "publishedAt": "2022-10-11T13:08:39Z",
-    "content": "After introducing the Edit Tweet feature, Twitter could plan another significant change for its microblogging platform. According to reverse engineer Jane Manchun Wong, the next big change coming to … [+1883 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Naftemporiki.gr"
+    {
+      "author": "Jake Lingeman",
+      "title": "IIHS Study: Drivers Rely Too Heavily On Autonomous Driving Assists",
+      "marker": { "lat": 29.2144915, "lng": 83.03580397857144 }
     },
-    "author": "Mount",
-    "title": "Όταν τo DNA μετατρέπεται σε σκληρό δίσκο: Αποθηκεύοντας δεδομένα για 1.000 χρόνια",
-    "description": "Τα περισσότερα από τα υφιστάμενα συστήματα αποθήκευσης δεδομένων κάποια στιγμή απλά σταματούν να λειτουργούν. Αλλά υπάρχουν νέες, πολλά υποσχόμενες εναλλακτικές στον ορίζοντα, όπως εξηγεί στο BBC η Ντίνα Ζιελίνκσι, επιστήμονας του Γαλλικού Εθνικού Ινστιτούτου…",
-    "url": "https://www.naftemporiki.gr/story/1914041/otan-to-dna-metatrepetai-se-skliro-disko-apothikeuontas-dedomena-gia-1000-xronia",
-    "urlToImage": "https://www.naftemporiki.gr/fu/t/1914041/1080/568/0x0000000001e141c2/2/1/otan-dna-metatrepetai-skliro-disko-apothikeuontas-dedomena-1000-xronia.jpg",
-    "publishedAt": "2022-10-11T13:05:48Z",
-    "content": ". , , BBC , , . \r\n« , DNA » .   . DNA. \r\n DNA . . . « » . \r\n DNA ,   , DNA . , DNA. Netflix 2020, Biohackers.\r\n DNA , . , - . \r\n ; , . , , , , , . , , .\r\n, , , , . « 10 20 , 50 », .\r\n 2018, SpaceX ro… [+229 chars]"
-  },
-  {
-    "source": {
-      "id": "newsweek",
-      "name": "Newsweek"
+    {
+      "author": "Anthony Garreffa",
+      "title": "NVIDIA GeForce RTX 4090 Founders Edition Review: Just Buy It?",
+      "marker": { "lat": 29.608936200000002, "lng": 81.5770304357865 }
     },
-    "author": "Jake Lingeman",
-    "title": "IIHS Study: Drivers Rely Too Heavily On Autonomous Driving Assists",
-    "description": "Cadillac and Tesla drivers spend the most time doing things besides driving when behind the wheel",
-    "url": "https://www.newsweek.com/iihs-study-drivers-are-too-overconfident-autonomous-driving-assists-1750519",
-    "urlToImage": "https://d.newsweek.com/en/full/2091034/general-motors-super-cruise.jpg",
-    "publishedAt": "2022-10-11T13:03:24Z",
-    "content": "Drivers with semi-autonomous features are relying on them too often and treating them as fully self-driving vehicles despite warnings from their owners manuals and numerous high-profile crashes, acco… [+4173 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "TweakTown"
+    {
+      "author": "BeauHD",
+      "title": "A Turbine Prototype Just Broke a 24-Hour Wind Power World Record",
+      "marker": { "lat": 27.6718111, "lng": 85.4264284 }
     },
-    "author": "Anthony Garreffa",
-    "title": "NVIDIA GeForce RTX 4090 Founders Edition Review: Just Buy It?",
-    "description": "NVIDIA's next-gen GeForce RTX 4090 is here, with our first outing with Ada Lovelace being the GeForce RTX 4090 Founders Edition... and it's a BEAST. Continue reading at TweakTown >",
-    "url": "https://www.tweaktown.com/reviews/10216/nvidia-geforce-rtx-4090-founders-edition-just-buy-it/index.html",
-    "urlToImage": "https://static.tweaktown.com/content/1/0/10216_163_nvidia-geforce-rtx-4090-founders-edition-review-just-buy-it_full.png",
-    "publishedAt": "2022-10-11T13:00:02Z",
-    "content": "Introduction\r\nThe day is finally here... NVIDIA's new GeForce RTX 4090 graphics card has been unleashed, with the first embargo NDA allowing GPU reviewers across the world to reveal their GeForce RTX… [+33306 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Slashdot.org"
+    {
+      "author": "feedfeeder",
+      "title": "GM created a new energy business to sell batteries and solar panels in bid to dethrone Tesla - The Verge",
+      "marker": { "lat": 27.6676649, "lng": 85.3183888179628 }
     },
-    "author": "BeauHD",
-    "title": "A Turbine Prototype Just Broke a 24-Hour Wind Power World Record",
-    "description": "An anonymous reader quotes a report from Electrek: Siemens Gamesa's 14-222 DD offshore wind turbine prototype has, according to the Spanish-German wind giant today, set a world record for the most power output by a single wind turbine in a 24-hour period: 359…",
-    "url": "https://hardware.slashdot.org/story/22/10/10/2225213/a-turbine-prototype-just-broke-a-24-hour-wind-power-world-record",
-    "urlToImage": "https://a.fsdn.com/sd/topics/power_64.png",
-    "publishedAt": "2022-10-11T13:00:00Z",
-    "content": "Siemens Gamesa's 14-222 DD offshore wind turbine prototype has, according to the Spanish-German wind giant today, set a world record for the most power output by a single wind turbine in a 24-hour pe… [+1044 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Slashdot.org"
+    {
+      "author": "moneyadda",
+      "title": "Rivian stock price prediction 2022, 2023, 2025, 2030, 2040, 2050",
+      "marker": { "lat": 27.64735905, "lng": 85.51750837501186 }
     },
-    "author": "feedfeeder",
-    "title": "GM created a new energy business to sell batteries and solar panels in bid to dethrone Tesla - The Verge",
-    "description": "GM created a new energy business to sell batteries and solar panels in bid to dethrone TeslaThe Verge GM is launching a new business to connect homes and businesses with EV chargers, energy storageCNBC GM Looks to Parlay Battery Work Into New Energy BusinessT…",
-    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=166713569",
-    "urlToImage": null,
-    "publishedAt": "2022-10-11T12:53:00Z",
-    "content": "\"Is it really you, Fuzz, or is it Memorex, or is it radiation sickness?\" \r\n-- Sonic Disruptors comics"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Slashdot.org"
+    {
+      "author": "rubins",
+      "title": "5 things to know before the stock market opens Tuesday",
+      "marker": { "lat": 27.10840675, "lng": 84.91209743103644 }
     },
-    "author": "moneyadda",
-    "title": "Rivian stock price prediction 2022, 2023, 2025, 2030, 2040, 2050",
-    "description": "Rivian Automatic Inc. launched its IPO in 2021. After which the possibility increased that Rivian Company could become the biggest competitor of TESLA Company. People started investing in Rivian after the launch of Rivian’s IPO. Now it has become essential fo…",
-    "url": "https://slashdot.org/submission/16721293/rivian-stock-price-prediction-2022-2023-2025-2030-2040-2050",
-    "urlToImage": null,
-    "publishedAt": "2022-10-11T12:50:41Z",
-    "content": "\"Is it really you, Fuzz, or is it Memorex, or is it radiation sickness?\" \r\n-- Sonic Disruptors comics"
-  },
-  {
-    "author": "rubins",
-    "title": "5 things to know before the stock market opens Tuesday",
-    "description": "U.S. stock markets started October with a bang, but have now posted four straight losing sessions. The tech-laden Nasdaq on Monday closed at its lowest level in two years. JPMorgan CEO Jamie Dimon... #ford #apple #broadest #western #pcmakers #battlefield #cen…",
-    "content": "U.S. stock markets started October with a bang, but have now posted four straight losing sessions. The tech-laden Nasdaq on Monday closed at its lowest level in two years. JPMorgan CEO Jamie Dimon sa… [+1308 chars]"
-  },
-  {
-    "author": "VaporBrands International, Inc.",
-    "title": "Upgraded Tesla Motors and Batteries to Power E-Cite Vehicles Along with 24-Month, 50,000-Mile Warranty",
-    "description": "BOTHELL, WA, Oct. 11, 2022 (GLOBE NEWSWIRE) -- via NewMediaWire\r\n -- VaporBrands International, Inc. dba E-Cite Motors Group, (OTC:VAPR) announces that their vehicles will be powered by motors and batteries manufactured by Tesla, upgraded by E-Cite, and offer…"
-  },
-  {
-    "source": {
-      "id": "business-insider",
-      "name": "Business Insider"
+    {
+      "author": "VaporBrands International, Inc.",
+      "title": "Upgraded Tesla Motors and Batteries to Power E-Cite Vehicles Along with 24-Month, 50,000-Mile Warranty",
+      "marker": { "lat": 26.448800050000003, "lng": 87.27398586903576 }
     },
-    "author": "Grace Kay",
-    "title": "Elon Musk touts big plans for Tesla's Optimus robot, but some experts doubt it's the next big thing",
-    "description": "Elon Musk has promised that the humanoid robot will someday change the way people live and work, but robotics experts are less optimistic.",
-    "url": "https://www.businessinsider.com/experts-doubt-elon-musk-plans-for-tesla-optimus-robot-2022-10",
-    "urlToImage": "https://i.insider.com/633c330a4d423e00182034e7?width=1200&format=jpeg",
-    "publishedAt": "2022-10-11T12:49:19Z",
-    "content": "As Elon Musk unveiled a prototype of Tesla's Optimus bot, he promised the humanoid would one day change the way people live and work but some experts are less optimistic.\r\nAI researcher Filip Pieknie… [+3975 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "PRNewswire"
+    {
+      "author": "Grace Kay",
+      "title": "Elon Musk touts big plans for Tesla's Optimus robot, but some experts doubt it's the next big thing",
+      "marker": { "lat": 227.4187156, "lng": 85.01009335459317 }
     },
-    "author": "Walker",
-    "title": "Lithium Mining Market in High Gear as Demand Continues to Grow at an Accelerated Pace",
-    "description": "PALM BEACH, Florida, Oct. 11, 2022 /PRNewswire/ -- FinancialNewsMedia.com News Commentary - Lithium — the lightest metal on Earth — was discovered by Swedish chemist Johan August Arfwedson more than 200 years ago. Since then, lithium and its compounds have be…",
-    "url": "https://www.prnewswire.com/news-releases/lithium-mining-market-in-high-gear-as-demand-continues-to-grow-at-an-accelerated-pace-301645780.html",
-    "urlToImage": null,
-    "publishedAt": "2022-10-11T12:45:00Z",
-    "content": "PALM BEACH, Florida, Oct. 11, 2022 /PRNewswire/ -- FinancialNewsMedia.com\r\n News Commentary - Lithium the lightest metal on Earth was discovered by Swedish chemist Johan August Arfwedson more than 20… [+10609 chars]"
-  },
-  {
-    "source": {
-      "id": "the-times-of-india",
-      "name": "The Times of India"
+    {
+      "author": "Walker",
+      "title": "Lithium Mining Market in High Gear as Demand Continues to Grow at an Accelerated Pace",
+      "marker": { "lat": 26.8128974, "lng": 87.2839978 }
     },
-    "author": "ETtech",
-    "title": "Venture capitalist Tim Draper leads investment in Bengaluru startup Up",
-    "description": "A firm backer of cryptocurrency, Draper is known for his early investments in companies such as Tesla, Angelist, Coinbase, Switch, Skype and Hotmail. He also helms the entrepreneurial reality TV show ‘Meet the Drapers’, in which startups get a chance to pitch…",
-    "url": "https://economictimes.indiatimes.com/tech/funding/venture-capitalist-tim-draper-leads-investment-in-bengaluru-startup-up/articleshow/94785998.cms",
-    "urlToImage": "https://img.etimg.com/thumb/msid-94789684,width-1070,height-580,imgsize-1129186,overlay-ettech/photo.jpg",
-    "publishedAt": "2022-10-11T12:34:21Z",
-    "content": "Consumer technology startup Up, formerly known as React Labs, said on Tuesday it has raised $800,000 in pre-seed funding led by Tim Draper of Draper Associates. Stanford Angels &amp; Entrepreneurs of… [+1666 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Autoblog"
+    {
+      "author": "ETtech",
+      "title": "Venture capitalist Tim Draper leads investment in Bengaluru startup Up",
+      "marker": { "lat": 28.6959872, "lng": 80.60839602677527 }
     },
-    "author": "Reuters",
-    "title": "Many drivers treat partially automated cars as fully self-driving",
-    "description": "Filed under:\nGovernment/Legal,Green,Chevrolet,GM,GMC,Hummer,Infiniti,Nissan,Tesla,Safety,Technology,Electric\n\nContinue reading Many drivers treat partially automated cars as fully self-driving\n\nMany drivers treat partially automated cars as fully self-driving…",
-    "url": "https://www.autoblog.com/2022/10/11/semi-autonomous-self-driving-misuse/",
-    "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/crop/3500x1969+0+364/resize/800x450!/format/jpg/quality/85/https://s.yimg.com/os/creatr-uploaded-images/2021-04/0ca8caa0-a3c7-11eb-bfbe-54c17eed3351",
-    "publishedAt": "2022-10-11T12:32:00Z",
-    "content": "WASHINGTON Drivers using advanced driver assistance systems like Tesla Autopilot or General Motors Super Cruise often treat their vehicles as fully self-driving despite warnings, a new study has foun… [+2261 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "PCMag.com"
-    },
-    "author": "John",
-    "title": "Η Honda αποκάλυψε το πρώτο της αμιγώς ηλεκτρικό SUV, που βασίζεται στην πλατφόρμα μπαταριών της General Motors",
-    "description": "Το ηλεκτρικό SUV με μπαταρία, Honda Prologue, θα κυκλοφορήσει το 2024 και θα χρησιμοποιεί την τεχνολογία μπαταρίας Ultium που αναπτύσσεται από την General Motors",
-    "url": "https://gr.pcmag.com/cars-auto/41491/e-honda-apokalupse-to-proto-tes-amigos-elektriko-suv-pou-basizetai-sten-platphorma-mpatarion-tes-gen",
-    "urlToImage": "https://sm.pcmag.com/t/pcmag_gr/news/h/honda-unve/honda-unveils-first-all-electric-suv-built-on-gms-battery-pl_85j3.1200.jpg",
-    "publishedAt": "2022-10-11T12:30:58Z",
-    "content": "(Credit: Honda)\r\n Honda SUV, 2024. «Prologue» .\r\n Prologue 30 (BEV) 2030. 2040, Honda . Prologue Acura SUV, 2024.\r\n Honda Prologue. , Car &amp; Driver $45,000, 400 515 . 20 12,7 Honda CR-V 2023.\r\n« C… [+868 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Génération NT"
-    },
-    "author": "Christian D",
-    "title": "Renault : bientôt un réseau de bornes de recharge électrique ultrarapides",
-    "description": "Renault annonce à son tour vouloir déployer un réseau de bornes de recharge électriques en Europe avec un atout : la puissance de charge.",
-    "url": "https://www.generation-nt.com/renault-borne-recharge-electrique-reseau-mobilize-actualite-2005951.html",
-    "urlToImage": "https://img.generation-nt.com/nouvelle-renault-zoe-05_03AF02B301660953.jpg",
-    "publishedAt": "2022-10-11T12:30:01Z",
-    "content": "Renault annonce à son tour vouloir déployer un réseau de bornes de recharge électriques en Europe avec un atout : la puissance de charge. Alors que l'Europe entend accélérer le déploiement du maillag… [+2590 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "PRNewswire"
-    },
-    "author": "Smith",
-    "title": "Self Supervised Learning Market to Accrue $126.8 Bn, Globally, by 2031 at 33.1% CAGR: Allied Market Research",
-    "description": "Rise in automation of banking processes along with a rise in internet usage and the onset of the internet of things will drive the growth of the global self supervised learning market. PORTLAND, Ore., Oct. 11, 2022 /PRNewswire/ -- Allied Market Research recen…",
-    "url": "https://www.prnewswire.com/news-releases/self-supervised-learning-market-to-accrue-126-8-bn-globally-by-2031-at-33-1-cagr-allied-market-research-301645924.html",
-    "urlToImage": "https://mma.prnewswire.com/media/636519/Allied_Market_Research_Logo.jpg?p=facebook",
-    "publishedAt": "2022-10-11T12:30:00Z",
-    "content": "Rise in automation of banking processes along with a rise in internet usage and the onset of the internet of things will drive the growth of the global self supervised learning market.\r\nPORTLAND, Ore… [+7894 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Yahoo Entertainment"
-    },
-    "author": "PR Newswire",
-    "title": "Self Supervised Learning Market to Accrue $126.8 Bn, Globally, by 2031 at 33.1% CAGR: Allied Market Research",
-    "description": "Allied Market Research recently published a report, titled, \"Self Supervised Learning Market by Technology (Natural Language Processing, Computer Vision, and...",
-    "url": "https://finance.yahoo.com/news/self-supervised-learning-market-accrue-123000343.html",
-    "urlToImage": "https://s.yimg.com/uu/api/res/1.2/fAccsuUa4hXbrVY8.t4hDQ--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/63a5e1eb0fb8608b2116a30c603d60bd",
-    "publishedAt": "2022-10-11T12:30:00Z",
-    "content": "Rise in automation of banking processes along with a rise in internet usage and the onset of the internet of things will drive the growth of the global self supervised learning market.\r\nPORTLAND, Ore… [+8156 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "futurezone.at"
-    },
-    "author": "futurezone",
-    "title": "Tesla Model Y schlägt VW Golf in Deutschland",
-    "description": "Der US-Elektroautobauer belegt erstmals den 1. Platz bei den neu zugelassenen Fahrzeugen in Deutschland.",
-    "url": "https://futurezone.at/produkte/tesla-model-y-spitzenplatz-vw-golf-neuzulassungen-in-deutschland-statistik/402177876",
-    "urlToImage": "https://image.futurezone.at/images/facebook/7273404/46-144434554.jpg",
-    "publishedAt": "2022-10-11T12:28:09Z",
-    "content": "11.10.2022\r\nDer US-Elektroautobauer belegt erstmals den 1. Platz bei den neu zugelassenen Fahrzeugen in Deutschland.\r\n© KBA\r\n© KBA"
-  },
-  {
-    "source": {
-      "id": "lenta",
-      "name": "Lenta"
-    },
-    "author": "Ryan",
-    "title": "На Илона Маска подали в суд за манипулирование рынком",
-    "description": "Основателя SpaceX и генерального директора Tesla Илона Маска обвинили в манипулировании ценами акций социальной сети Twitter. Инвестор Джузеппе Пампена подал на миллиардера в суд, заявляя, что согласием возобновить сделку по приобретению Twitter в начале октя…",
-    "url": "https://lenta.ru/news/2022/10/11/musk/",
-    "urlToImage": "https://icdn.lenta.ru/images/2022/10/11/14/20221011145506514/share_57dd93a768c69b35a107d47b099c9751.jpg",
-    "publishedAt": "2022-10-11T12:25:14Z",
-    "content": "SpaceX Tesla Twitter. Twitter , Bloomberg.\r\n , Twitter « , , », . Twitter , .\r\n« » Twitter, 7-8 . , «», , 25 , 11 .\r\n Twitter 25 . 44 . , 9 . 4 , . 54,2 ."
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Dialogos.com.cy"
-    },
-    "author": "Misk",
-    "title": "Mε Υπερσύγχρονα Συστήματα Τελευταίας Τεχνολογίας εξοπλίζεται το Γενικό Νοσοκομείο Λεμεσού",
-    "description": "Με νέα υπερσύγχρονα συστήματα που αναβαθμίζουν την ποιότητα των υπηρεσιών που παρέχουν στην κοινωνία τα νοσοκομεία του Οργανισμού Κρατικών Υπηρεσιών Υγείας (ΟΚΥπΥ), ενισχύθηκε το Γενικό Νοσοκομείο Λεμεσού. Οι δυνατότητες των συστημάτων που φέρουν τα ανώτερα δ…",
-    "url": "https://dialogos.com.cy/me-ypersygchrona-systimata-teleytaias-technologias-exoplizetai-to-geniko-nosokomeio-lemesoy/",
-    "urlToImage": "https://dialogos.com.cy/wp-content/uploads/socialmark-images/1665491133922434.jpg",
-    "publishedAt": "2022-10-11T12:25:12Z",
-    "content": "(), .\r\n standards (), , 11 . . .\r\n,SPECT/CT, (MRI) ,  .\r\n , . , \r\nY\r\n : , , .. , . . 30 .\r\nSPECT/CT\r\n . - () , (CT) 16 . .\r\n (MRI) 1.5 Tesla\r\n . , , (, , , ..), . : , , .. , . . . 30 60 .\r\n . (30 x 4… [+61 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Forbes"
-    },
-    "author": "Robert Hart",
-    "title": "Elon Musk’s Twitter U-Turns And Public Attacks Were ‘Fraudulent’ Efforts To Secure Better Deal, Lawsuit Alleges",
-    "description": "A Twitter investor accused the Tesla billionaire of manipulating markets so he could renegotiate a better price, adding that his latest u-turn proves he was “bluffing all along” about walking away.",
-    "url": "https://www.forbes.com/sites/roberthart/2022/10/11/elon-musks-twitter-u-turns-and-public-attacks-were-fraudulent-efforts-to-secure-better-deal-lawsuit-alleges/",
-    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/63455fca8e683f85dede06a9/0x0.jpg?format=jpg&crop=1691,952,x0,y21,safe&width=1200",
-    "publishedAt": "2022-10-11T12:24:51Z",
-    "content": "A Twitter investor filed a lawsuit against Elon Musk on Monday accusing the billionaire of manipulating the markets in order to secure a better deal, the latest legal challenge to emerge from his tur… [+2086 chars]"
-  },
-  {
-    "source": {
-      "id": "newsweek",
-      "name": "Newsweek"
-    },
-    "author": "Ryan Smith",
-    "title": "Elon Musk Says He Contacted Kanye About Antisemitism But Critics Call Foul",
-    "description": "After Musk tweeted that he expressed concerns about West's recent antisemitic tweet, the multi-billionaire has faced criticism for his approach to the matter.",
-    "url": "https://www.newsweek.com/elon-musk-says-contacted-kanye-west-about-antisemitism-twitter-critics-call-foul-1750719",
-    "urlToImage": "https://d.newsweek.com/en/full/2131603/elon-musk-spoke-kanye-about-antisemitism.jpg",
-    "publishedAt": "2022-10-11T12:24:41Z",
-    "content": "Elon Musk's response to Kanye West's antisemitic tweets has garnered criticism on Twitter, the platform the mogul is in the process of purchasing.\r\nThe rapper and fashion designer, 45, sparked contro… [+5505 chars]"
-  },
-  {
-    "source": {
-      "id": "svenska-dagbladet",
-      "name": "Svenska Dagbladet"
-    },
-    "author": "Erik Wisterberg",
-    "title": "Northvolt-grundare lämnar styrelsen",
-    "description": "Bakom Peter Carlsson finns en mer okänd medgrundare. Paolo Cerruti är Northvolts operativa chef – med ett förflutet på Tesla. Nu lämnar han storsatsningens styrelse, kan SvD avslöja.",
-    "url": "https://www.svd.se/a/6962ro/northvolt-paolo-cerruti-lamnar-styrelsen",
-    "urlToImage": "https://svd.vgc.no/v2/images/0d3751b8-9658-4fcc-9091-ccfff91c9e61?h=630&q=80&upscale=true&w=1200&s=c7d0c4614b5dedc93d013b2d2f41d54b5181efa9",
-    "publishedAt": "2022-10-11T12:21:09Z",
-    "content": "Från början hette företaget Swedish Gigafactory AB. Det var en tydlig blinkning till grundarparet Peter Carlsson och Paolo Cerrutis tidigare arbetsplats. Båda hade haft chefsroller på Tesla, vars bat… [+218 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Siècle Digital"
-    },
-    "author": "Coe",
-    "title": "La Chine ne veut pas de Starlink sur son territoire",
-    "description": "Elon Musk a révélé la semaine passée que des autorités du gouvernement chinois lui avaient demandé de refuser l’accès à Starlink en Chine.",
-    "url": "https://siecledigital.fr/2022/10/11/la-chine-ne-veut-pas-de-starlink-sur-son-territoire/",
-    "urlToImage": "https://siecledigital.fr/wp-content/uploads/2022/10/shanghai-chine-unsplash-scaled.jpg",
-    "publishedAt": "2022-10-11T12:19:18Z",
-    "content": "Le gouvernement chinois a cherché à obtenir l'assurance qu'Elon Musk ne vendrait pas Starlink en Chine. \r\nElon Musk, de nouveau en lice pour racheter Twitter, a révélé la semaine passée que des perso… [+2413 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Numerama"
-    },
-    "author": "Raphaëlle Baut",
-    "title": "90 stations de recharge rapide en France : le projet de Renault est tardif, mais malin",
-    "description": "Pour faciliter la transformation vers la mobilité électrique, quoi de mieux que de lancer son propre réseau de stations de recharge, en apprenant des erreurs de ses concurrents ? C'est en tout cas le nouveau pari de Mobilize et Renault pour l'Europe. Lancée e…",
-    "url": "https://www.numerama.com/vroom/1141514-90-stations-de-recharge-rapide-en-france-le-projet-de-renault-est-tardif-mais-malin.html",
-    "urlToImage": "https://www.numerama.com/wp-content/uploads/2022/10/mobilize-fast-charge.jpg",
-    "publishedAt": "2022-10-11T12:15:44Z",
-    "content": "Pour faciliter la transformation vers la mobilité électrique, quoi de mieux que de lancer son propre réseau de stations de recharge, en apprenant des erreurs de ses concurrents ? C’est en tout cas le… [+3078 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Forbes"
-    },
-    "author": "Expert Panel",
-    "title": "15 Workplace And Consumer Functions Transformed By Digital Twin Technology",
-    "description": "Digital twins offer multiple ways to enhance human safety and workplace efficiency.",
-    "url": "https://www.forbes.com/sites/forbestechcouncil/2022/10/11/15-workplace-and-consumer-functions-transformed-by-digital-twin-technology/",
-    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/634068f16473d43819bec1dc/0x0.jpg?format=jpg&width=1200",
-    "publishedAt": "2022-10-11T12:15:00Z",
-    "content": "These days, many of us are reading about digital twin technology cropping up across industrial and consumer applications, from healthcare simulators to real-time traffic maps. The concept behind the … [+7917 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Www.nzz.ch"
-    },
-    "author": "Deutsche Presse-Agentur (DPA), Bloomberg ",
-    "title": "KURZMELDUNGEN - Wirtschaft: Swissport-Personal erhält neuen Gesamtarbeitsvertrag",
-    "description": "NZZ Nachrichten, Hintergründe, Meinungen aus der Schweiz, International, Sport, Digital, Wirtschaft, Auto & mehr. Fundierte Berichterstattung rund um die Uhr.",
-    "url": "https://www.nzz.ch/wirtschaft/wirtschaft-swissport-personal-erhaelt-neuen-gesamtarbeitsvertrag-ld.1706261",
-    "urlToImage": "https://img.nzz.ch/2022/06/23/76cd0731-460b-4d51-8458-1eb05fad6043.jpeg?width=1200&height=674&fit=bound&quality=75&auto=webp&crop=4081,2293,x218,y524&wmark=nzz",
-    "publishedAt": "2022-10-11T12:11:53Z",
-    "content": "Verhandlungen abgeschlossen: Swissport-Personal erhält neuen GAV\r\nSwissport ist der grösste Bodenabfertiger am Flughafen Zürich. Nach langen Verhandlungen erhält das Personal nun einen neuen GAV.\r\nDi… [+18117 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Barron's"
-    },
-    "author": "Al Root",
-    "title": "GM's Competition With Tesla Heats Up. This Time It Isn't About Cars.",
-    "description": "A new GM business unit, GM Energy, is taking a page from Tesla's playbook by selling battery energy storage products to residential and utility customers.",
-    "url": "https://www.barrons.com/articles/gm-power-batteries-tesla-51665489498",
-    "urlToImage": "https://images.barrons.com/im-635936/social",
-    "publishedAt": "2022-10-11T12:10:27Z",
-    "content": "Tuesday, GM (ticker: GM) introduced GM Energy, a business unit that will leverage the companys battery technology for residential and commercial power-storage applications. GM is even working with \r\n… [+2253 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "U.Today"
-    },
-    "author": "U.Today",
-    "title": "Gokhshtein on SHIB: I Should Have Got into It, Regardless of \"DOGE Killer\" Tag Line",
-    "description": "Cryptocurrency enthusiast Gokhshtein regrets not going all in on Shiba Inu earlier, here's why",
-    "url": "https://u.today/gokhshtein-on-shib-i-should-have-got-into-it-regardless-of-doge-killer-tag-line",
-    "urlToImage": "https://u.today/sites/default/files/styles/twitter/public/2022-10/24642.jpg",
-    "publishedAt": "2022-10-11T12:04:00Z",
-    "content": "Disclaimer: The opinion expressed here is not investment advice it is provided for informational purposes only. It does not necessarily reflect the opinion of U.Today. Every investment and all tradin… [+3181 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Turbo.fr"
-    },
-    "author": "Hugo Quintal",
-    "title": "VIDEO – La voiture la plus rapide du monde avale le 0 à 100 km/h en 1,41 seconde",
-    "description": "Une petite voiture électrique créée par des étudiants vient de battre le record du monde du 0 à 100 km/h. Elle n'a eu besoin que de 1,41 seconde pour atteindre la marque de référence.\nAucune voiture électrique n'a jamais accéléré aussi vite que celle-ci. C'es…",
-    "url": "https://www.turbo.fr/actualite-automobile/video-la-voiture-la-plus-rapide-du-monde-avale-le-0-100-km/h-en-141-seconde-187608",
-    "urlToImage": "https://www.turbo.fr/sites/default/files/2022-10/Capture%20d%E2%80%99%C3%A9cran%202022-10-11%20111348.jpg",
-    "publishedAt": "2022-10-11T12:01:01Z",
-    "content": "Une petite voiture électrique créée par des étudiants vient de battre le record du monde du 0 à 100 km/h. Elle n'a eu besoin que de 1,41 seconde pour atteindre la marque de référence.\r\nAucune voiture… [+1829 chars]"
-  },
-  {
-    "source": {
-      "id": "bloomberg",
-      "name": "Bloomberg"
-    },
-    "author": "Max Chafkin",
-    "title": "The Twitter Deal Has Pierced Elon Musk's Reality Distortion Field",
-    "description": "The world’s richest man has discovered there are some rules that do apply to him.",
-    "url": "https://www.bloomberg.com/news/articles/2022-10-11/elon-musk-twitter-twtr-saga-diminishes-tesla-tsla-aura",
-    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iI.6h1sVZA7M/v0/1200x630.jpg",
-    "publishedAt": "2022-10-11T12:00:10Z",
-    "content": "On the evening of Sept. 30, a Friday, the worlds wealthiest man stood on a stage in Palo Alto and showed off a humanoid robot. \r\nElon Musk, the chief executive officer of \r\nTesla Inc., had first anno… [+5540 chars]"
-  },
-  {
-    "source": {
-      "id": "independent",
-      "name": "Independent"
-    },
-    "author": "Gustaf Kilander",
-    "title": "House Judiciary GOP faces calls to take down tweet celebrating Kanye West",
-    "description": "‘It’s wild this tweet is still up days after Kanye went full-blown antisemite. The Republican Party is an active threat to Jewish Americans’",
-    "url": "https://www.independent.co.uk/news/world/americas/us-politics/house-gop-kanye-west-def-con-3-twitter-b2200236.html",
-    "urlToImage": "https://static.independent.co.uk/2022/10/07/01/newFile-1.jpg?quality=75&width=1200&auto=webp",
-    "publishedAt": "2022-10-11T12:00:01Z",
-    "content": "The House Republicans on the Judiciary Committee are facing calls to take down a tweet that celebrated embattled rapper Kanye West.\r\nA tweet from the Republicans on the committee simply read Kanye. E… [+5329 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "PRNewswire"
-    },
-    "author": "Varane",
-    "title": "Electric Coolant Pump Market Worth $1100+ Mn, Globally, by 2028 at 16.8% CAGR, Driven by Advantages of Electric Coolant Pumps Over Mechanical Pumps, Increase in Production of Vehicles, Rise in Demand for Eco-Friendly Vehicles",
-    "description": "NEW YORK, Oct. 11, 2022 /PRNewswire/ -- The Insight Partners published latest research study on \"Electric Coolant Pump Market Size, Share, Revenue, Growth Strategy, Industry Trends and Forecast to 2028 – COVID-19 Impact and Global Analysis – by Application, P…",
-    "url": "https://www.prnewswire.com/news-releases/electric-coolant-pump-market-worth-1100-mn-globally-by-2028-at-16-8-cagr-driven-by-advantages-of-electric-coolant-pumps-over-mechanical-pumps-increase-in-production-of-vehicles-rise-in-demand-for-eco-friendly-vehicles-301645885.html",
-    "urlToImage": "https://mma.prnewswire.com/media/1586348/The_Insight_Partners_Logo.jpg?p=facebook",
-    "publishedAt": "2022-10-11T12:00:00Z",
-    "content": "NEW YORK, Oct. 11, 2022 /PRNewswire/ -- The Insight Partners published latest research study on \"Electric Coolant Pump Market\r\n Size, Share, Revenue, Growth Strategy, Industry Trends and Forecast to … [+14936 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "CNBC"
-    },
-    "author": "MacKenzie Sigalos",
-    "title": "The software used in bitcoin mining is getting its first big makeover in more than a decade",
-    "description": "A coalition of bitcoin developers is releasing version 2 of Stratum for the mining industry to evaluate and test, and Block and Braiins are pushing it forward.",
-    "url": "https://www.cnbc.com/2022/10/11/bitcoin-mining-software-overhaul-stratum-v2-promoted-by-block-braiins.html",
-    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106991079-1639767921701-GettyImages-603577042.jpg?v=1665489601&w=1920&h=1080",
-    "publishedAt": "2022-10-11T12:00:00Z",
-    "content": "Software used in bitcoin mining just got its first upgrade since late 2012, and a coalition of companies including payments giant Block (formerly Square) is trying to help push the open-source protoc… [+6058 chars]"
-  },
-  {
-    "source": {
-      "id": "business-insider",
-      "name": "Business Insider"
-    },
-    "author": "sjones@insider",
-    "title": "Rivian lost $2 billion in market value in a single day after recalling nearly all of its EVs",
-    "description": "EV maker Rivian had a total market value of $29.99 billion on Friday. Following its latest recall notice, it had fallen to $27.81 billion by the end of Monday.",
-    "url": "https://www.businessinsider.com/rivian-market-electric-vehicles-market-value-recall-cars-2022-10",
-    "urlToImage": "https://i.insider.com/63454dc6d2050f0011d3b9bf?width=1200&format=jpeg",
-    "publishedAt": "2022-10-11T11:58:37Z",
-    "content": "Rivian's decision to recall nearly all of its electric vehicles caused the EV maker's market value to fall by more than $2 billion in the space of a single trading session. \r\nOn Friday, Rivian's CEO,… [+1871 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "3dnews.ru"
-    },
-    "author": "Harry",
-    "title": "Водители машин с частичным автопилотом признались, что часто полностью отвлекаются от дороги",
-    "description": "Выяснилось, что в США водители машин с передовыми системами помощи водителю, вроде Tesla Autopilot или GM Super Cruise, часто пользуются своим транспортом так, как будто в них действует полный автопилот, не требующий внимания человека. Об этом свидетельствует…",
-    "url": "https://3dnews.ru/1075580/issledovanie-iihs-voditeli-chastichno-avtonomnih-mashin-v-ssha-chasto-ignoriruyut-ruchnoe-upravlenie-v-puti",
-    "urlToImage": "https://3dnews.ru/assets/external/illustrations/2022/10/11/1075580/sm.photo6c603f27c54.750.jpg",
-    "publishedAt": "2022-10-11T11:57:00Z",
-    "content": ", , Tesla Autopilot GM Super Cruise, , , . , (IIHS).\r\n: Vlad Tchompalov/unsplash.com\r\n, , , . , IIHS , Tesla Autopilot, GM Super Cruise Nissan ProPILOT Assist, , , «».\r\n IIHS 600 . 53 % , Super Cruis… [+306 chars]"
-  },
-  {
-    "source": {
-      "id": "al-jazeera-english",
-      "name": "Al Jazeera English"
-    },
-    "author": "Al Jazeera",
-    "title": "Elon Musk a businessman who ‘doesn’t know much about Taiwan’: Su",
-    "description": "Taiwan's premier rebukes billionaire after he suggested island should become a 'special administrative zone' of China.",
-    "url": "https://www.aljazeera.com/news/2022/10/11/elon-musk-businessman-who-doesnt-know-much-about-taiwan-su",
-    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2022/08/390193807.jpg?resize=1920%2C1440",
-    "publishedAt": "2022-10-11T11:55:05Z",
-    "content": "Su Tseng-chang, the premier of Taiwan, has said Elon Musk doesnt know much about the self-ruled island, after the billionaire suggested it should become a special administrative zone of China similar… [+3410 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "CNBC"
-    },
-    "author": "Jordan Novet",
-    "title": "Google selects Coinbase to take cloud payments with cryptocurrencies and will use its custody tool",
-    "description": "By lining up a broad deal with Coinbase, Google might pick up an edge against Amazon and Microsoft by letting clients pay with Bitcoin or other digital coins.",
-    "url": "https://www.cnbc.com/2022/10/11/google-selects-coinbase-to-take-cloud-payments-with-cryptocurrencies.html",
-    "urlToImage": "https://image.cnbcfm.com/api/v1/image/107131349-1665173590289-gettyimages-1135936641-GOOGLE_CLOUD_CONFERENCE.jpeg?v=1665489001&w=1920&h=1080",
-    "publishedAt": "2022-10-11T11:50:00Z",
-    "content": "Google said Tuesday that it will rely on Coinbase to start letting some customers pay for cloud services with cryptocurrencies early in 2023, while Coinbase said it would draw on Google's cloud infra… [+3517 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Www.abc.es"
-    },
-    "author": "Musk",
-    "title": "Elon Musk culpa a las teorías neomarxistas de que su hija transexual no quiera tener contacto con él: «Es comunismo»",
-    "description": "A sus 51 años, Elon Musk, dueño de Tesla y fundador de Space X, tiene 10 hijos, tres de ellos nacidos hace solo un año con dos mujeres distintas: su actual esposa Grimes, con la que tuvo una niña de nombre Exa Dark Sideræl , -que hace referencia al rendimient…",
-    "url": "https://www.abc.es/gente/elon-musk-culpa-teorias-neomarxistas-hija-transexual-20221011134322-nt.html",
-    "urlToImage": "https://s2.abcstatics.com/abc/www/multimedia/gente/2022/10/11/elon-musk-RDQKrnet6GNLqxjqMlzuvXJ-1024x512@abc.jpg",
-    "publishedAt": "2022-10-11T11:43:27Z",
-    "content": "A sus 51 años, Elon Musk, dueño de Tesla y fundador de Space X, tiene 10 hijos, tres de ellos nacidos hace solo un año con dos mujeres distintas: su actual esposa Grimes, con la que tuvo una niña de … [+1455 chars]"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "COMPUTER BILD"
-    },
-    "author": "Charlie",
-    "title": "Stromversorgung: Bald per Satellit?",
-    "description": "Strom nachhaltig zu produzieren, ist heute kein Problem mehr. Aber ihn zu transportieren? Ein Unternehmen aus Neuseeland will Elektrizität künftig via Satellit übertragen.",
-    "url": "https://www.computerbild.de/videos/cb-News-Internet-Stromversorgung-Bald-per-Satellit-33914721.html",
-    "urlToImage": "https://i.computer-bild.de/imgs/1/4/6/1/8/3/6/9/_Bald_per_Satellit_-41ec0e3550817381.jpg",
-    "publishedAt": "2022-10-11T11:37:00Z",
-    "content": "Tesla: Großbrand in Grünheide"
-  }
-]
+    {
+      "author": "Reuters",
+      "title": "Many drivers treat partially automated cars as fully self-driving",
+      "marker": { "lat": 26.6650146, "lng": 87.7011507 }
+    }
+  ]
+}
