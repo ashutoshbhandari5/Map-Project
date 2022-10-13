@@ -1,6 +1,6 @@
 import React from "react";
 
-const Map = ({ selectedNews }) => {
+const Map = ({ selectedDataItem }) => {
   return (
     <div className="flex flex-col p-4">
       <div className="flex ">
@@ -15,11 +15,11 @@ const Map = ({ selectedNews }) => {
         <p className="px-2">Select region</p>
       </div>
       <div>
-        {selectedNews ? (
+        {selectedDataItem ? (
           <>
             <h3 className="my-10">Currently selected news</h3>
-            <h1>{selectedNews.author}</h1>
-            <p>{selectedNews.title}</p>
+            <h1>{selectedDataItem.author}</h1>
+            <p>{selectedDataItem.title}</p>
           </>
         ) : (
           "No news"

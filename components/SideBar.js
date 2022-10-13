@@ -1,12 +1,9 @@
-import Item from "./Item";
-
 const SideBar = ({
-  news,
+  data,
   loadData,
   handleSortFilter,
   filterJson,
-  setSelectedNews,
-  renderNewsItem,
+  renderListItem,
 }) => {
   return (
     <div className="h-sreen">
@@ -37,8 +34,8 @@ const SideBar = ({
           ))}
         </div>
         <div className="h-full w-full overflow-y-auto">
-          {news?.map((el, i) => {
-            return renderNewsItem(el);
+          {data?.map((el) => {
+            return renderListItem(el);
           })}
           <button
             onClick={() => loadData()}

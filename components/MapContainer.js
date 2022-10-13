@@ -3,27 +3,25 @@ import SideBar from "../components/SideBar";
 import Map from "./Map";
 
 const MapContainer = ({
-  news,
+  data,
   loadData,
   handleSortFilter,
   filterJson,
-  setSelectedNews,
-  selectedNews,
-  renderNewsItem,
+  selectedDataItem,
+  renderListItem,
 }) => {
   return (
     <div className="flex w-full justify-between h-full">
       <div className="grow text-center">
-        <Map selectedNews={selectedNews} />
+        <Map selectedDataItem={selectedDataItem} />
       </div>
       <div className="basis-1/4 h-full">
         <SideBar
-          renderNewsItem={renderNewsItem}
+          renderListItem={renderListItem}
           handleSortFilter={handleSortFilter}
           loadData={loadData}
-          news={news}
+          data={data}
           filterJson={filterJson}
-          setSelectedNews={setSelectedNews}
         />
       </div>
     </div>

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Norvic",
+    "bedCount": "155",
+    "speciality": "Heart"
+  },
+  {
+    "name": "Bir",
+    "bedCount": "255",
+    "speciality": "Cancer"
+  },
+  {
+    "name": "Kanti",
+    "bedCount": "55",
+    "speciality": "eye"
+  },
+  {
+    "name": "Venus",
+    "bedCount": "125",
+    "speciality": "Bone"
+  },
+  {
+    "name": "Civil",
+    "bedCount": "120",
+    "speciality": "Whole Body"
+  },
+  {
+    "name": "Everest",
+    "bedCount": "137",
+    "speciality": "Skin"
+  },
+  {
+    "name": "MidCity",
+    "bedCount": "45",
+    "speciality": "Hair"
+  }
+]

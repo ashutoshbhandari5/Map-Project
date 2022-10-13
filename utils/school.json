@@ -1,0 +1,32 @@
+[
+  {
+    "name": "kanjirowa school",
+    "address": "Balkumari",
+    "buildingCount": 3
+  },
+  {
+    "name": "Step by Step",
+    "address": "Koteshwor",
+    "buildingCount": 2
+  },
+  {
+    "name": "Beacon",
+    "address": "Baneshwor",
+    "buildingCount": 4
+  },
+  {
+    "name": "Golden Gate",
+    "address": "Putalisadak",
+    "buildingCount": 2
+  },
+  {
+    "name": "Sun Rise",
+    "address": "Kumaripati",
+    "buildingCount": 3
+  },
+  {
+    "name": "Nist",
+    "address": "Bhaktapur",
+    "buildingCount": 4
+  }
+]

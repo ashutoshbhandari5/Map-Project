@@ -1,42 +1,16 @@
-import react, { useEffect, useMemo, useState } from "react";
 import MapContainer from "../components/MapContainer";
 import newsJson from "../utils/news.json";
 import filterJson from "../utils/filter.json";
+import useDataFilter from "../hooks/useDataFilter";
 
 export default function Home() {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [filter, setFilter] = useState({ sortBy: "author", order: "asc" });
-  const [selectedNews, setSelectedNews] = useState(null);
-  const news = useMemo(
-    () =>
-      newsJson
-        .sort((a, b) => {
-          return filter.order === "asc"
-            ? a[filter.sortBy].localeCompare(b[filter.sortBy])
-            : b[filter.sortBy].localeCompare(a[filter.sortBy]);
-        })
-        .slice(0, currentPage * 5),
-    [currentPage, filter]
-  );
+  const [data, handleSortFilter, loadData, selectedData, setSelectedData] =
+    useDataFilter(newsJson, "author");
 
-  useEffect(() => {
-    setSelectedNews(null);
-  }, [news]);
-
-  const loadData = () => {
-    setCurrentPage(currentPage + 1);
-  };
-
-  const handleSortFilter = (obj) => {
-    setFilter((previousState) => {
-      return { ...previousState, ...obj };
-    });
-  };
-
-  const renderNewsItem = (newsItem) => {
+  const renderListItem = (newsItem) => {
     return (
       <div
-        onClick={() => setSelectedNews(newsItem)}
+        onClick={() => setSelectedData(newsItem)}
         className="p-2 cursor-pointer hover:bg-white"
       >
         <h1 className="p-2 text-center">{newsItem.author}</h1>
@@ -49,11 +23,11 @@ export default function Home() {
     <div>
       <MapContainer
         filterJson={filterJson}
-        news={news}
+        data={data}
         handleSortFilter={handleSortFilter}
-        renderNewsItem={renderNewsItem}
+        renderListItem={renderListItem}
         loadData={loadData}
-        selectedNews={selectedNews}
+        selectedDataItem={selectedData}
       />
     </div>
   );
