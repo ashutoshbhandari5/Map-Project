@@ -1,8 +1,8 @@
 import React from "react";
 import hospitalJson from "../utils/hospital.json";
-import useDataFilter from "../hooks/useDataFilter";
 import MapContainer from "../components/MapContainer";
 import filterJson from "../utils/filter.json";
+import useDataFilter from "../hooks/useDataFilter";
 
 const hospital = () => {
   const [data, handleSortFilter, loadData, selectedData, setSelectedData] =

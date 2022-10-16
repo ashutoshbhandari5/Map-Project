@@ -1,6 +1,8 @@
 import React from "react";
-import SideBar from "../components/SideBar";
-import Map from "./Map";
+import ListBar from "./ListBar";
+import dynamic from "next/dynamic";
+
+const DynamicMap = dynamic(() => import("./Map"), { ssr: false });
 
 const MapContainer = ({
   data,
@@ -12,13 +14,14 @@ const MapContainer = ({
   renderListItem,
 }) => {
   const markers = data.map((el) => el.marker);
+
   return (
     <div className="flex w-full justify-between h-full">
-      <div className="grow text-center">
-        <Map center={center} markers={markers} />
+      <div className="grow text-center h-screen">
+        <DynamicMap center={center} markers={markers} />
       </div>
       <div className="basis-1/4 h-full">
-        <SideBar
+        <ListBar
           renderListItem={renderListItem}
           handleSortFilter={handleSortFilter}
           loadData={loadData}

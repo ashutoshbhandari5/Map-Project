@@ -11,8 +11,6 @@ export default function Home() {
     (el) => el.for === "all" || el.for === "news"
   );
 
-  console.log(newsFilterJson);
-
   const renderListItem = (newsItem) => {
     return (
       <div
