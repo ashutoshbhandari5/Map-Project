@@ -33,6 +33,7 @@ const hospital = () => {
         handleSortFilter={handleSortFilter}
         renderListItem={renderListItem}
         loadData={loadData}
+        setSelectedData={setSelectedData}
         selectedDataItem={selectedData}
       />
     </div>

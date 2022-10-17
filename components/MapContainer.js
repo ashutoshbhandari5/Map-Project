@@ -27,12 +27,14 @@ const MapContainer = ({
 
   return (
     <div className="relative flex">
-      <Backdrop
-        selectedDataItem={selectedDataItem}
-        renderListItem={renderListItem}
-        setSelectedData={setSelectedData}
-        visibility={backDropVisibility}
-      />
+      {selectedDataItem && (
+        <Backdrop
+          selectedDataItem={selectedDataItem}
+          renderListItem={renderListItem}
+          setSelectedData={setSelectedData}
+          visibility={backDropVisibility}
+        />
+      )}
       <div className={classNames.sideBarClassName}>
         <SideBar />
       </div>

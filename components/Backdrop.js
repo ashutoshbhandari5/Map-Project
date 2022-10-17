@@ -32,13 +32,11 @@ const Backdrop = ({
           </svg>
         </div>
       </div>
-      {selectedDataItem && (
-        <div
-          className={` absolute left-[30%] top-20 h-[300px] bg-white w-[500px] z-30 ${visibility}`}
-        >
-          {renderListItem(selectedDataItem)}
-        </div>
-      )}
+      <div
+        className={` absolute left-[30%] top-20 h-[300px] bg-white w-[500px] z-30 ${visibility}`}
+      >
+        {renderListItem(selectedDataItem)}
+      </div>
     </>
   );
 };
