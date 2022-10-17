@@ -4,6 +4,7 @@ const ListBar = ({
   handleSortFilter,
   filterJson,
   renderListItem,
+  togglebackdrop,
 }) => {
   return (
     <div className="h-sreen">
@@ -35,7 +36,7 @@ const ListBar = ({
         </div>
         <div className="h-full w-full overflow-y-auto">
           {data?.map((el, i) => {
-            return <div key={i}>{renderListItem(el)} </div>;
+            return <div key={i}>{renderListItem(el, togglebackdrop)} </div>;
           })}
           <button
             onClick={() => loadData()}

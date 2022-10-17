@@ -11,10 +11,13 @@ export default function Home() {
     (el) => el.for === "all" || el.for === "news"
   );
 
-  const renderListItem = (newsItem) => {
+  const renderListItem = (newsItem, togglebackdrop) => {
     return (
       <div
-        onClick={() => setSelectedData(newsItem)}
+        onClick={() => {
+          setSelectedData(newsItem);
+          togglebackdrop(true);
+        }}
         className="p-2 cursor-pointer hover:bg-white"
       >
         <h1 className="p-2 text-center">{newsItem.author}</h1>
