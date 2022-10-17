@@ -36,7 +36,7 @@ const ListBar = ({
         </div>
         <div className="h-full w-full overflow-y-auto">
           {data?.map((el, i) => {
-            return <div key={i}>{renderListItem(el, togglebackdrop)} </div>;
+            return <div key={i}>{renderListItem(el)} </div>;
           })}
           <button
             onClick={() => loadData()}

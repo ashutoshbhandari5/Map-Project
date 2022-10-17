@@ -11,12 +11,11 @@ export default function Home() {
     (el) => el.for === "all" || el.for === "news"
   );
 
-  const renderListItem = (newsItem, togglebackdrop) => {
+  const renderListItem = (newsItem) => {
     return (
       <div
         onClick={() => {
           setSelectedData(newsItem);
-          togglebackdrop(true);
         }}
         className="p-2 cursor-pointer hover:bg-white"
       >
@@ -36,6 +35,7 @@ export default function Home() {
         renderListItem={renderListItem}
         loadData={loadData}
         selectedDataItem={selectedData}
+        setSelectedData={setSelectedData}
       />
     </div>
   );

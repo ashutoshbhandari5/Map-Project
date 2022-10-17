@@ -13,6 +13,7 @@ const MapContainer = ({
   handleSortFilter,
   filterJson,
   selectedDataItem,
+  setSelectedData,
   center,
   renderListItem,
 }) => {
@@ -22,14 +23,14 @@ const MapContainer = ({
 
   const classNames = useMemo(() => setHamburgerMenuClass(sideBar), [sideBar]);
 
-  const [backDrop, togglebackdrop] = useState(false);
-
-  const backDropVisibility = backDrop ? "visible" : "hidden";
+  const backDropVisibility = selectedDataItem ? "visible" : "hidden";
 
   return (
     <div className="relative flex">
       <Backdrop
-        togglebackdrop={togglebackdrop}
+        selectedDataItem={selectedDataItem}
+        renderListItem={renderListItem}
+        setSelectedData={setSelectedData}
         visibility={backDropVisibility}
       />
       <div className={classNames.sideBarClassName}>
@@ -45,7 +46,6 @@ const MapContainer = ({
         </div>
         <div className="basis-1/4 h-full">
           <ListBar
-            togglebackdrop={togglebackdrop}
             renderListItem={renderListItem}
             handleSortFilter={handleSortFilter}
             loadData={loadData}
